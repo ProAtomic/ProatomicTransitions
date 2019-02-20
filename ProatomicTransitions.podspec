@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicTransitions'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A base for transitions.'
   s.description      = 'Proatomic transitions for iOS.'
   s.homepage         = 'http://proatomicdev.com'
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   ]
 
   s.subspec 'Core' do |ss|
+      ss.dependency 'pop'
     ss.vendored_frameworks = [ 'ProatomicTransitions/Frameworks/ProatomicTransitions-Release-iphoneuniversal/ProatomicTransitions.framework' ]
   end
 end
