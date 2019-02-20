@@ -1,0 +1,10 @@
+use_frameworks!
+
+target 'ProatomicTransitions_Example' do
+  pod 'ProatomicTransitions', :path => '../'
+
+  target 'ProatomicTransitions_Tests' do
+    inherit! :search_paths
+
+  end
+end
