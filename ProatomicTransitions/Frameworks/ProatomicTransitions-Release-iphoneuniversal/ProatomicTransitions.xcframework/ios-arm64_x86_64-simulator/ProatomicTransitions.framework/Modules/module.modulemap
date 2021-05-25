@@ -1,0 +1,6 @@
+framework module ProatomicTransitions {
+  umbrella header "ProatomicTransitions.h"
+
+  export *
+  module * { export * }
+}
