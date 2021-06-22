@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ProatomicTransitions'
-  s.version          = '0.2'
+  s.version          = '0.2.1'
   s.summary          = 'A base for transitions.'
   s.description      = 'Proatomic transitions for iOS.'
   s.homepage         = 'http://proatomicdev.com'
